@@ -1,8 +1,11 @@
 package com.ben;
 
+import com.ben.DéroulementDuJeux.Joueur1;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        Joueur1 premierJoueur = new Joueur1();
+        Joueur1.displayAvailablePersonnage();
     }
 }
