@@ -79,4 +79,8 @@ public class Joueur1 {
             nbIntelligence = sc.nextInt();
         } while (nbIntelligence != nbNiveau - (nbForce + nbAgilite));
     }
+
+    public int getNbVitalite() {
+        return nbVitalite;
+    }
 }
