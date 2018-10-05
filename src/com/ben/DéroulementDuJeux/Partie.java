@@ -8,7 +8,14 @@ public class Partie {
     private Joueur2 joueur2;
     private Sorts sorts;
 
-    public void tour() {
+    public void initJoueurs() {
+        Joueur1 premierJoueur = new Joueur1();
+        Joueur1.choixDuJoueur1();
+        Joueur2 secondJoueur = new Joueur2();
+        Joueur2.choixDuJoueur2();
+    }
+
+    public void nouvellePartie() {
         do {
             if (joueur2.getNbVitalite() > 0) {
                 System.out.println("Joueur 1 (" + joueur1.getNbVitalite() + " veuillez choisir votre action (1 :" +
