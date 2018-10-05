@@ -1,4 +1,4 @@
-package com.ben.DéroulementDuJeux;
+package com.ben.magiworld;
 
 import java.util.HashMap;
 import java.util.Map;

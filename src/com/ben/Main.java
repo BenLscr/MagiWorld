@@ -1,6 +1,6 @@
 package com.ben;
 
-import com.ben.DéroulementDuJeux.Partie;
+import com.ben.magiworld.Partie;
 
 public class Main {
 

@@ -1,6 +1,4 @@
-package com.ben.DéroulementDuJeux;
-
-import com.ben.DéroulementDuJeux.Sorts;
+package com.ben.magiworld;
 
 public class Guerrier extends Sorts {
 

@@ -1,4 +1,4 @@
-package com.ben.DéroulementDuJeux;
+package com.ben.magiworld;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -37,15 +37,15 @@ public class Joueur1 {
         }
     }
 
-    public void setNbPersonnage(int nbPersonnage) {
+    public void setNbPersonnage() {
         Map<String, Integer> personnages = new HashMap<>();
         personnages.put("Guerrier", 1);
         personnages.put("Rôdeur", 2);
         personnages.put("Mage", 3);
         do {
             System.out.println("Veuillez choisir la classe de votre personnage (1 : Guerrier, 2 : Rôdeur, 3 Mage)");
-            nbPersonnage = sc.nextInt();
-        } while (!(nbPersonnage < 1 && nbPersonnage > 3));
+            this.nbPersonnage = sc.nextInt();
+        } while (nbPersonnage < 1 || nbPersonnage > 3);
     }
 
     public void setNbNiveau(int nbNiveau) {
